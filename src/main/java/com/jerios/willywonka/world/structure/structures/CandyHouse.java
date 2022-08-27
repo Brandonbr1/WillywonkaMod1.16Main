@@ -24,6 +24,8 @@ import net.minecraft.world.gen.feature.structure.Structure;
 import net.minecraft.world.gen.feature.structure.StructureStart;
 import net.minecraft.world.gen.feature.structure.VillageConfig;
 import net.minecraft.world.gen.feature.template.TemplateManager;
+import org.apache.logging.log4j.Level;
+import org.apache.logging.log4j.LogManager;
 
 import java.util.List;
 
@@ -73,7 +75,17 @@ public class CandyHouse extends Structure<NoFeatureConfig> {
                     new VillageConfig(() -> dynamicRegistryManager.registryOrThrow(Registry.TEMPLATE_POOL_REGISTRY)
                             .get(new ResourceLocation(WillyWonka.MOD_ID, "house/start_pool")),
                             10), AbstractVillagePiece::new, chunkGenerator, templateManagerIn,
-                    blockpos, this.pieces, this.random,false,true); //components
+                    blockpos, this.pieces, this.random,false,true);
+
+            this.pieces.forEach(piece -> piece.move(0, 1, 0));
+            this.pieces.forEach(piece -> piece.getBoundingBox().y0 -= 1);
+
+            this.calculateBoundingBox(); //recalculateStructureSize
+
+            LogManager.getLogger().log(Level.DEBUG, "House at " +
+                    this.pieces.get(0).getBoundingBox().getXSpan() + " " +
+                    this.pieces.get(0).getBoundingBox().getYSpan() + " " +
+                    this.pieces.get(0).getBoundingBox().getZSpan());
 
 
         }
