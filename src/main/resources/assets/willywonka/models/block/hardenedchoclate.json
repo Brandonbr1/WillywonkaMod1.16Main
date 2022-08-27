@@ -1,0 +1,14 @@
+<<<<<<< HEAD
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "willywonka:block/hardenedchoclate"
+  }
+=======
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "willywonka:block/hardenedchoclate"
+  }
+>>>>>>> e757fc2 (update 1)
+}

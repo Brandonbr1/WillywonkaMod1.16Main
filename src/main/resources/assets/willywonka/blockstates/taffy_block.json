@@ -1,0 +1,40 @@
+<<<<<<< HEAD
+{
+  "variants": {
+    "facing=east": {
+      "model": "willywonka:block/taffy_block",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "willywonka:block/taffy_block"
+    },
+    "facing=south": {
+      "model": "willywonka:block/taffy_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "willywonka:block/taffy_block",
+      "y": 270
+    }
+  }
+=======
+{
+  "variants": {
+    "facing=east": {
+      "model": "willywonka:block/taffy_block",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "willywonka:block/taffy_block"
+    },
+    "facing=south": {
+      "model": "willywonka:block/taffy_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "willywonka:block/taffy_block",
+      "y": 270
+    }
+  }
+>>>>>>> e757fc2 (update 1)
+}

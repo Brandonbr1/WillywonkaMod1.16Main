@@ -1,0 +1,14 @@
+<<<<<<< HEAD
+{
+  "replace": false,
+  "values": [
+    "minecraft:oak_blocks"
+  ]
+=======
+{
+  "replace": false,
+  "values": [
+    "minecraft:oak_blocks"
+  ]
+>>>>>>> e757fc2 (update 1)
+}

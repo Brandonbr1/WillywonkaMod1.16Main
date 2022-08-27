@@ -1,0 +1,14 @@
+<<<<<<< HEAD
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tutorialmod:item/taffy"
+  }
+=======
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tutorialmod:item/taffy"
+  }
+>>>>>>> e757fc2 (update 1)
+}

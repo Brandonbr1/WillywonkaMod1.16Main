@@ -1,0 +1,14 @@
+<<<<<<< HEAD
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "willywonka:item/infini_candy"
+  }
+=======
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "willywonka:item/infini_candy"
+  }
+>>>>>>> e757fc2 (update 1)
+}

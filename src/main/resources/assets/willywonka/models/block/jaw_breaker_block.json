@@ -1,0 +1,14 @@
+<<<<<<< HEAD
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "willywonka:block/jaw_breaker_block"
+  }
+=======
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "willywonka:block/jaw_breaker_block"
+  }
+>>>>>>> e757fc2 (update 1)
+}

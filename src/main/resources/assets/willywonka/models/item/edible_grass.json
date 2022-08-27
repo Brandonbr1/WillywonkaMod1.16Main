@@ -1,0 +1,14 @@
+<<<<<<< HEAD
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "willywonka:item/edible_grass"
+  }
+=======
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "willywonka:item/edible_grass"
+  }
+>>>>>>> e757fc2 (update 1)
+}

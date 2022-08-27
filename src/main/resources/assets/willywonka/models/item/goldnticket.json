@@ -1,0 +1,14 @@
+<<<<<<< HEAD
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "willywonka:item/goldenticket"
+  }
+=======
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "willywonka:item/goldenticket"
+  }
+>>>>>>> e757fc2 (update 1)
+}

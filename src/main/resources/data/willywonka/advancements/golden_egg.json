@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "willywonka:goldenegg"
+    },
+    "title": "Spoiles Little Golden Brat",
+    "description": "get a gold the the rare golden egg ",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "willywonka:willywonka_mod",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "willywonka:goldenegg"
+          }
+        ]
+      }
+    }
+  }
+}

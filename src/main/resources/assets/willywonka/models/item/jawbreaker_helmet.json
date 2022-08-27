@@ -1,0 +1,14 @@
+<<<<<<< HEAD
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "willywonka:item/jawbreaker_helmet"
+  }
+=======
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "willywonka:item/jawbreaker_helmet"
+  }
+>>>>>>> e757fc2 (update 1)
+}

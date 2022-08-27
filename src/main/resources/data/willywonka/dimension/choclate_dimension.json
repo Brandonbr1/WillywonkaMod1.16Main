@@ -1,0 +1,12 @@
+{
+  "type": "willywonka:choclate_dimension",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": 1301799869,
+    "settings": "willywonka:choclate_dimension",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "willywonka:choclate_dimension"
+    }
+  }
+}

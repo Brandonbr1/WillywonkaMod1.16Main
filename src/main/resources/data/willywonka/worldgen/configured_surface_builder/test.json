@@ -1,0 +1,15 @@
+{
+  "config": {
+    "top_material": {
+      "Name": "Willwonka:hardenedchoclate"
+    },
+    "under_material": {
+      "Name": "Willwonka:hardenedchoclate"
+    },
+    "underwater_material": {
+      "Name": "Willwonka:hardenedchoclate"
+    }
+
+  },
+  "type": "willywonka:test"
+}

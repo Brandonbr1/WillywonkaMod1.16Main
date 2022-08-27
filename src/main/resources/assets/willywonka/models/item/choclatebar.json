@@ -1,0 +1,14 @@
+<<<<<<< HEAD
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "willywonka:item/choclatebar"
+  }
+=======
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "willywonka:item/choclatebar"
+  }
+>>>>>>> e757fc2 (update 1)
+}

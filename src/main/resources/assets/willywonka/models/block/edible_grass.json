@@ -1,0 +1,14 @@
+<<<<<<< HEAD
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "willywonka:block/edible_grass"
+  }
+=======
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "willywonka:block/edible_grass"
+  }
+>>>>>>> e757fc2 (update 1)
+}

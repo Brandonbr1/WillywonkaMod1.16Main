@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "willywonka:jaw_breaker"
+    }
+  },
+  "result": {
+    "item": "willywonka:jaw_breaker_block",
+    "count": 1
+  }
+}

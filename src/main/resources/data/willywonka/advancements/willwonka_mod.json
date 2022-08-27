@@ -1,0 +1,25 @@
+
+{
+  "display": {
+    "icon": {
+      "item": "willywonka:golden_egg"
+    },
+    "title": "Willy wonka",
+    "description": "Candy!!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "background": "willywonka:textures/block/taffy_block"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "willywonka:goldenegg"
+          }
+        ]
+      }
+    }
+  }

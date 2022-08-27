@@ -1,0 +1,14 @@
+<<<<<<< HEAD
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tutorialmod:item/jawbreaker"
+  }
+=======
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tutorialmod:item/jawbreaker"
+  }
+>>>>>>> e757fc2 (update 1)
+}

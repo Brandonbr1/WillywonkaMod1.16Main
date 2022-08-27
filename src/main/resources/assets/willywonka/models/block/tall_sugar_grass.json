@@ -1,0 +1,14 @@
+<<<<<<< HEAD
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "willywonka:block/tall_sugar_grass"
+  }
+=======
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "willywonka:block/tall_sugar_grass"
+  }
+>>>>>>> e757fc2 (update 1)
+}

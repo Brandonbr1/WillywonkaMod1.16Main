@@ -1,0 +1,12 @@
+<<<<<<< HEAD
+{
+  "variants": {
+    "": { "model": "willywonka:block/jaw_breaker_block" }
+  }
+=======
+{
+  "variants": {
+    "": { "model": "willywonka:block/jaw_breaker_block" }
+  }
+>>>>>>> e757fc2 (update 1)
+}

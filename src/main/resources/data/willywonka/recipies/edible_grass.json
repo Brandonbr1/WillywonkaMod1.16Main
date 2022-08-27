@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    " G "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:sugar"
+    },
+    "G": {
+      "item": "minecraft:grass"
+    }
+  },
+  "result": {
+    "item": "willywonka:edible_grass",
+    "count": 1
+  }
+}
