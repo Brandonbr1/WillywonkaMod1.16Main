@@ -21,13 +21,14 @@ import net.minecraftforge.registries.ForgeRegistries;
 @Mod.EventBusSubscriber(modid = WillyWonka.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class ModEnityType {
 
+
+
     //@SubscribeEvent
     //public static void onClientSetup(FMLClientSetupEvent event) {
         //RenderingRegistry.registerEntityRenderingHandler(ModEnityType.GUMMYBEAR.get(), HogRenderer::new);
     //}
-
     public static DeferredRegister<EntityType<?>> ENTITY_TYPES
-            = DeferredRegister.create(ForgeRegistries.ENTITIES, WillyWonka.MOD_ID);
+           = DeferredRegister.create(ForgeRegistries.ENTITIES, WillyWonka.MOD_ID);
 
     public static final RegistryObject<EntityType<OompaLoompaEntity>> OOMPA_LOOMPA =
             ENTITY_TYPES.register("oompa_loompa",
@@ -53,11 +54,13 @@ public class ModEnityType {
                                     EntityClassification.CREATURE).sized(1f, 2f)
                             .build(new ResourceLocation(WillyWonka.MOD_ID, "gummy_bear").toString()));
 
+    //public static final RegistryObject<EntityType<ExplosiveArrowEntity>> EXPLOSIVE_ARROW = ENTITY_TYPES.register("torch_arrow",
+            //() -> EntityType.Builder.of((EntityType.IFactory<ExplosiveArrowEntity>) ExplosiveArrowEntity::new, EntityClassification.MISC)
+                    //.sized(0.5F, 0.5F).build("torch_arrow"));
 
 
-    public static final RegistryObject<EntityType<ExplosiveArrowEntity>> EXPLOSIVE_ARROW = ENTITY_TYPES.register("explosive_arrow",
-            () -> EntityType.Builder.of((EntityType.IFactory<ExplosiveArrowEntity>) ExplosiveArrowEntity::new, EntityClassification.MISC)
-                    .sized(0.5F, 0.5F).build("torch_arrow"));
+
+
 
     public static void register(IEventBus eventBus) {
         ENTITY_TYPES.register(eventBus);
