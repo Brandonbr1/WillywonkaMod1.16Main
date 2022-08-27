@@ -1,9 +1,8 @@
 package com.jerios.willywonka.events;
 
 import com.jerios.willywonka.WillyWonka;
-import com.jerios.willywonka.enities.GummyBearEnity;
-import com.jerios.willywonka.enities.ModEnityType;
 import com.jerios.willywonka.enities.OompaLoompaAgressiveEntity;
+import com.jerios.willywonka.register.ModEnityType;
 import com.jerios.willywonka.util.ModSpawnEggItem;
 import net.minecraft.entity.EntityType;
 import net.minecraftforge.event.RegistryEvent;
@@ -13,6 +12,8 @@ import net.minecraftforge.fml.common.Mod;
 
 @Mod.EventBusSubscriber(modid = WillyWonka.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ModEventBusEvents {
+
+    // to do fix this
     @SubscribeEvent
     public static void addEntityAttributes(EntityAttributeCreationEvent event) {
         //event.put(ModEnityType.OOMPA_LOOMPA_AGRESSIVE.get(), OompaLoompaAgressiveEntity.setCustomAttributes().create());

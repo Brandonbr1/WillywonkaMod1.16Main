@@ -1,8 +1,9 @@
 
-package com.jerios.willywonka.blocks;
+package com.jerios.willywonka.register;
 
 import com.jerios.willywonka.WillyWonka;
-import com.jerios.willywonka.items.ModItems;
+import com.jerios.willywonka.blocks.*;
+import com.jerios.willywonka.register.ModItems;
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.BlockItem;

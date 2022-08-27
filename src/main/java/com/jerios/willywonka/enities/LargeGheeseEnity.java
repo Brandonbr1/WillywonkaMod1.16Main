@@ -1,7 +1,7 @@
 
 package com.jerios.willywonka.enities;
 
-import com.jerios.willywonka.items.ModItems;
+import com.jerios.willywonka.register.ModItems;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.MobEntity;

@@ -2,7 +2,7 @@
 package com.jerios.willywonka.items.custom;
 
 import com.jerios.willywonka.enities.ExplosiveArrowEntity;
-import com.jerios.willywonka.enities.ModEnityType;
+import com.jerios.willywonka.register.ModEnityType;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.projectile.AbstractArrowEntity;
 import net.minecraft.item.ArrowItem;

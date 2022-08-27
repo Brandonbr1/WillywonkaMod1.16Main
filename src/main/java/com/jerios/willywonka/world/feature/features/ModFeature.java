@@ -1,7 +1,7 @@
 
 package com.jerios.willywonka.world.feature.features;
 
-import com.jerios.willywonka.blocks.ModBlocks;
+import com.jerios.willywonka.register.ModBlocks;
 import com.mojang.serialization.Codec;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;

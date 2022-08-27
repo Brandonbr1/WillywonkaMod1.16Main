@@ -2,7 +2,7 @@
 package com.jerios.willywonka.util;
 
 
-import com.jerios.willywonka.items.ModItems;
+import com.jerios.willywonka.register.ModItems;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 

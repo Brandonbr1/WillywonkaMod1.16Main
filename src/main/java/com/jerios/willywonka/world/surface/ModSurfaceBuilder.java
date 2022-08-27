@@ -1,6 +1,6 @@
 package com.jerios.willywonka.world.surface;
 
-import com.jerios.willywonka.blocks.ModBlocks;
+import com.jerios.willywonka.register.ModBlocks;
 import com.mojang.serialization.Codec;
 import net.minecraft.block.BlockState;
 import net.minecraft.world.biome.Biome;

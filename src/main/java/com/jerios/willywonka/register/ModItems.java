@@ -1,9 +1,7 @@
 
-package com.jerios.willywonka.items;
+package com.jerios.willywonka.register;
 
 import com.jerios.willywonka.WillyWonka;
-import com.jerios.willywonka.blocks.ModBlocks;
-import com.jerios.willywonka.enities.ModEnityType;
 import com.jerios.willywonka.food.FizzyLiftingDrinkItem;
 import com.jerios.willywonka.food.JawBreakerItem;
 import com.jerios.willywonka.food.ModFoodBase;

@@ -1,7 +1,8 @@
 
-package com.jerios.willywonka.enities;
+package com.jerios.willywonka.register;
 
 import com.jerios.willywonka.WillyWonka;
+import com.jerios.willywonka.enities.*;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.EntityType;
 import net.minecraft.util.ResourceLocation;

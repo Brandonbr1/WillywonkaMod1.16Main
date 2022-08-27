@@ -2,8 +2,8 @@
 package com.jerios.willywonka.liquid;
 
 import com.jerios.willywonka.WillyWonka;
-import com.jerios.willywonka.blocks.ModBlocks;
-import com.jerios.willywonka.items.ModItems;
+import com.jerios.willywonka.register.ModBlocks;
+import com.jerios.willywonka.register.ModItems;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.FlowingFluidBlock;
 import net.minecraft.block.material.Material;

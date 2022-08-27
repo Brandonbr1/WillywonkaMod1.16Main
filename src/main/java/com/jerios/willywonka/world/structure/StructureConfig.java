@@ -27,9 +27,9 @@ public class StructureConfig {
      */
     public static void registerConfiguredStructures() {
         Registry<StructureFeature<?, ?>> registry = WorldGenRegistries.CONFIGURED_STRUCTURE_FEATURE;
-        Registry.register(registry, new ResourceLocation(WillyWonka.MOD_ID, "configured_run_down_house"), CONFIGURED_CANDY_HOUSE);
+        Registry.register(registry, new ResourceLocation(WillyWonka.MOD_ID, "configured_candy_house"), CONFIGURED_CANDY_HOUSE);
 
 
-        // FlatGenerationSettings.STRUCTURE_FEATURES.put(STStructures.RUN_DOWN_HOUSE.get(), CONFIGURED_RUN_DOWN_HOUSE);
+        FlatGenerationSettings.STRUCTURE_FEATURES.put(ModStructureUtil.CANDY_HOUSE_1.get(), CONFIGURED_CANDY_HOUSE);
     }
 }

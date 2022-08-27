@@ -1,9 +1,8 @@
 
 package com.jerios.willywonka.util;
 
-import com.jerios.willywonka.items.ModItems;
+import com.jerios.willywonka.register.ModItems;
 import net.minecraft.item.IItemTier;
-import net.minecraft.item.Item;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.util.LazyValue;
 import java.util.function.Supplier;

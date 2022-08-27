@@ -1,14 +1,14 @@
 package com.jerios.willywonka;
 
-import com.jerios.willywonka.blocks.ModBlocks;
-import com.jerios.willywonka.enities.ModEnityType;
+import com.jerios.willywonka.register.ModBlocks;
+import com.jerios.willywonka.register.ModEnityType;
 import com.jerios.willywonka.util.ModItemGroup;
-import com.jerios.willywonka.items.ModItems;
+import com.jerios.willywonka.register.ModItems;
 import com.jerios.willywonka.liquid.ModLiquid;
 import com.jerios.willywonka.util.ModSoundEvents;
 import com.jerios.willywonka.world.structure.ModStructureUtil;
 import com.jerios.willywonka.world.structure.StructureConfig;
-import com.jerios.willywonka.world.surface.ModSurfaceRegistry;
+import com.jerios.willywonka.register.ModSurfaceRegistry;
 import com.mojang.serialization.Codec;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -19,8 +19,6 @@ import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.world.gen.ChunkGenerator;
-import net.minecraft.world.gen.feature.Feature;
-import net.minecraft.world.gen.feature.NoFeatureConfig;
 import net.minecraft.world.server.ServerWorld;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;

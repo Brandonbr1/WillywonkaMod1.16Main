@@ -1,6 +1,6 @@
 package com.jerios.willywonka.world.gen;
 
-import com.jerios.willywonka.enities.ModEnityType;
+import com.jerios.willywonka.register.ModEnityType;
 import net.minecraft.entity.EntityType;
 import net.minecraft.util.RegistryKey;
 import net.minecraft.world.biome.Biome;

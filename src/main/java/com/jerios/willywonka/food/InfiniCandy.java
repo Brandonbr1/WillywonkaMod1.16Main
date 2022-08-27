@@ -1,7 +1,7 @@
 
 package com.jerios.willywonka.food;
 
-import com.jerios.willywonka.items.ModItems;
+import com.jerios.willywonka.register.ModItems;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.ServerPlayerEntity;

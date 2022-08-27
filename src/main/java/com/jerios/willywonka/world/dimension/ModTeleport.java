@@ -1,15 +1,13 @@
 package com.jerios.willywonka.world.dimension;
 
-import com.jerios.willywonka.blocks.ModBlocks;
+import com.jerios.willywonka.register.ModBlocks;
 import com.jerios.willywonka.blocks.ModHardenedChoclateBlock;
-import com.jerios.willywonka.items.ModItems;
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.Entity;
 import net.minecraft.fluid.Fluids;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.server.ServerWorld;
 import net.minecraftforge.common.util.ITeleporter;
-import net.minecraftforge.fml.common.Mod;
 
 import java.util.function.Function;
 
