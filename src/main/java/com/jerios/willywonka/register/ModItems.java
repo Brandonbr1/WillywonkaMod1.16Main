@@ -5,8 +5,8 @@ import com.jerios.willywonka.WillyWonka;
 import com.jerios.willywonka.food.FizzyLiftingDrinkItem;
 import com.jerios.willywonka.food.JawBreakerItem;
 import com.jerios.willywonka.food.ModFoodBase;
-import com.jerios.willywonka.items.custom.ExplosiveArrowItem;
 import com.jerios.willywonka.items.custom.GoodSpeedBadSlowItem;
+import com.jerios.willywonka.items.custom.RegisterExplosiveArrow;
 import com.jerios.willywonka.liquid.ModLiquid;
 import com.jerios.willywonka.util.ModItemGroup;
 import com.jerios.willywonka.util.ModItemTier;
@@ -46,6 +46,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> InfiniCandy = ITEMS.register( "infinicandy", () -> new Item(new Item.Properties().tab(ModItemGroup.WILLYWONKA_GROUP).stacksTo(64).food(ModFoodBase.INFINI_STUUF)));
 
+    public static final RegistryObject<Item> EXPLOSIVE_ARROW = ITEMS.register("explosive_arrow",
+            () -> new RegisterExplosiveArrow(new Item.Properties().tab(ModItemGroup.WILLYWONKA_GROUP)));
 
     public static final RegistryObject<Item> GummyBear = ITEMS.register( "gummybear", () -> new Item(new Item.Properties().tab(ModItemGroup.WILLYWONKA_GROUP).stacksTo(64).food(ModFoodBase.FAST_FOOD)));
 
@@ -126,8 +128,7 @@ public class ModItems {
     public static final RegistryObject<Item> EXPLOSIVECANDY = ITEMS.register("explosive_candy",
             () -> new Item(new Item.Properties().tab(ModItemGroup.WILLYWONKA_GROUP)));
 
-    public static final RegistryObject<Item> EXPLOSIVE_ARROW = ITEMS.register("explosive_arrow",
-            () -> new ExplosiveArrowItem(new Item.Properties().tab(ModItemGroup.WILLYWONKA_GROUP)));
+
 
     public static final RegistryObject<Item> GOLDEN_EGG = ITEMS.register("golden_egg",
             () -> new Item(new Item.Properties().tab(ModItemGroup.WILLYWONKA_GROUP).stacksTo(1).food(ModFoodBase.FAST_FOOD)));

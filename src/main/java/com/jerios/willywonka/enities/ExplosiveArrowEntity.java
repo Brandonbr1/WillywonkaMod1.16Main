@@ -30,7 +30,10 @@ public class ExplosiveArrowEntity extends AbstractArrowEntity {
         super(p_i48548_1_, p_i48548_2_, p_i48548_3_);
     }
 
+    //public ExplosiveArrowEntity(EntityType<ExplosiveArrowEntity> explosiveArrowEntityEntityType, World world) {
+       // super();
 
+   // }
 
 
     @Override

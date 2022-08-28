@@ -1,4 +1,3 @@
-
 package com.jerios.willywonka.items.custom;
 
 import com.jerios.willywonka.enities.ExplosiveArrowEntity;
@@ -9,14 +8,14 @@ import net.minecraft.item.ArrowItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 
-public class ExplosiveArrowItem extends ArrowItem {
-
-    public ExplosiveArrowItem(Properties tab) {
-        super(tab);
+public class RegisterExplosiveArrow extends ArrowItem {
+    public RegisterExplosiveArrow(Properties props) {
+        super(props);
     }
 
-    @Override
-    public AbstractArrowEntity createArrow(World world, ItemStack ammoStack, LivingEntity shooter) {
-        return new ExplosiveArrowEntity(ModEnityType.EXPLOSIVE_ARROW.get(), shooter, world);
-    }
+    //@Override
+    //public AbstractArrowEntity createArrow(World world, ItemStack ammoStack, LivingEntity shooter) {
+        //return new ExplosiveArrowEntity(ModEnityType.EXPLOSIVE_ARROW.get(), shooter, world);
+    //}
+
 }

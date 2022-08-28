@@ -1,5 +1,6 @@
 package com.jerios.willywonka;
 
+import com.jerios.willywonka.client.enity.render.ExplosiveArrowRenderer;
 import com.jerios.willywonka.register.ModBlocks;
 import com.jerios.willywonka.register.ModEnityType;
 import com.jerios.willywonka.util.ModItemGroup;
@@ -29,6 +30,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.InterModComms;
 import net.minecraftforge.fml.RegistryObject;
+import net.minecraftforge.fml.client.registry.RenderingRegistry;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.ObfuscationReflectionHelper;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -87,7 +89,9 @@ public class WillyWonka {
 
 
     private void setup(final FMLCommonSetupEvent event) {
+        // RenderingRegistry.registerEntityRenderingHandler(ModEnityType.candy.get(), ExplosiveArrowRenderer::new);
         event.enqueueWork(() -> {
+            ModStructureUtil.setupStructures();
             StructureConfig.registerConfiguredStructures();
         });
 
@@ -122,18 +126,6 @@ public class WillyWonka {
         });
     }
 
-    public void biomeModification(final BiomeLoadingEvent event) {
-        /*
-         * Add our structure to all biomes including other modded biomes.
-         * You can skip or add only to certain biomes based on stuff like biome category,
-         * temperature, scale, precipitation, mod id, etc. All kinds of options!
-         *
-         * You can even use the BiomeDictionary as well! To use BiomeDictionary, do
-         * RegistryKey.getOrCreateKey(Registry.BIOME_KEY, event.getName()) to get the biome's
-         * registrykey. Then that can be fed into the dictionary to get the biome's types.
-         */
-        event.getGeneration().getStructures().add(() -> StructureConfig.CONFIGURED_CANDY_HOUSE);
-    }
 
 
     private void enqueueIMC(final InterModEnqueueEvent event) {
@@ -167,6 +159,19 @@ public class WillyWonka {
             // register a new block here
             LOGGER.info("HELLO from Register Block");
         }
+    }
+
+    public void biomeModification(final BiomeLoadingEvent event) {
+        /*
+         * Add our structure to all biomes including other modded biomes.
+         * You can skip or add only to certain biomes based on stuff like biome category,
+         * temperature, scale, precipitation, mod id, etc. All kinds of options!
+         *
+         * You can even use the BiomeDictionary as well! To use BiomeDictionary, do
+         * RegistryKey.getOrCreateKey(Registry.BIOME_KEY, event.getName()) to get the biome's
+         * registrykey. Then that can be fed into the dictionary to get the biome's types.
+         */
+        event.getGeneration().getStructures().add(() -> StructureConfig.CONFIGURED_CANDY_HOUSE);
     }
 
     public void addDimensionalSpacing(final WorldEvent.Load event) {

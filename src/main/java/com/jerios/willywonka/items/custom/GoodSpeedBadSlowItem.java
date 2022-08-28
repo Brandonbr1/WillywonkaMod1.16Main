@@ -15,7 +15,7 @@ public class GoodSpeedBadSlowItem extends Item {
     }
 
 
-    public boolean hitenity(ItemStack stack, LivingEntity target, LivingEntity attacker) {
+    public boolean hurtEnemy(ItemStack stack, LivingEntity target, LivingEntity attacker) {
         attacker.addEffect(new EffectInstance(Effects.MOVEMENT_SPEED, 200, 2));
         target.addEffect(new EffectInstance(Effects.MOVEMENT_SLOWDOWN, 400, 3));
 

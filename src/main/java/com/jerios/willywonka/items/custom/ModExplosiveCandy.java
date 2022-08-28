@@ -68,7 +68,9 @@ public class ModExplosiveCandy extends ModBowItem {
                         int knockback = getArrowKnockback(bowStack, arrow);
                         arrow.setKnockback(knockback);
 
-                        // int fireTime = (bowStack, arrow); // this is fire time
+                        // this is fire time
+
+                        //int fireTime = (bowStack, arrow);
 
                         if (EnchantmentHelper.getItemEnchantmentLevel(Enchantments.FLAMING_ARROWS, bowStack) > 0) {
                             arrow.setSecondsOnFire(100);
@@ -112,4 +114,4 @@ public class ModExplosiveCandy extends ModBowItem {
     }
 }
 
-}
+

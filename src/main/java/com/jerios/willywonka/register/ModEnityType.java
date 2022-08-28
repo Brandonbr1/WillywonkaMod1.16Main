@@ -5,6 +5,7 @@ import com.jerios.willywonka.WillyWonka;
 import com.jerios.willywonka.enities.*;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.EntityType;
+import net.minecraft.entity.projectile.FireballEntity;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -57,6 +58,8 @@ public class ModEnityType {
     //public static final RegistryObject<EntityType<ExplosiveArrowEntity>> EXPLOSIVE_ARROW = ENTITY_TYPES.register("torch_arrow",
             //() -> EntityType.Builder.of((EntityType.IFactory<ExplosiveArrowEntity>) ExplosiveArrowEntity::new, EntityClassification.MISC)
                     //.sized(0.5F, 0.5F).build("torch_arrow"));
+
+
 
 
 
