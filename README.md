@@ -4,7 +4,7 @@ this project and the older version was inspired by:https://www.minecraftforum.ne
 trello board: https://trello.com/b/TBjKKiOe/willywonka-mod-116
 
 # this project is no longer maintained
-check Licence it's under lgplv2
+check Licence it's under GNU Lesser General Public License v2.1
 
 
 Structure gen code mostly from TelepathicGrunt
