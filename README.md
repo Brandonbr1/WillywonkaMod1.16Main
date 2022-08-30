@@ -3,7 +3,8 @@ this project and the older version was inspired by:https://www.minecraftforum.ne
 
 
 
-# this project is no longer maintained for it and so whatever you want with it under lgpl
+# this project is no longer maintained
+check Licence 
 
 code and assets are under ARR
 
