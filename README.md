@@ -6,6 +6,5 @@ this project and the older version was inspired by:https://www.minecraftforum.ne
 # this project is no longer maintained
 check Licence 
 
-code and assets are under ARR
 
 Structure gen code mostly from TelepathicGrunt
