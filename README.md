@@ -11,8 +11,3 @@ gradlew build
 
 trello board: https://trello.com/b/TBjKKiOe/willywonka-mod-116
 
-# this project is no longer maintained
-check Licence it's under GNU Lesser General Public License v2.1
-
-
-Structure gen code mostly from TelepathicGrunt
